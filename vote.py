@@ -1,4 +1,4 @@
-
+import os
 import requests, re, json, time, random
 requests.packages.urllib3.disable_warnings()
 
@@ -93,11 +93,11 @@ def vote(form, value, times, wait_min = None, wait_max = None):
         i += 1
 
 # Initialize these to the specific form and how often you want to vote
-poll_id = 0
-answer_id = 0
-number_of_votes = 10
-wait_min = None
-wait_max = None
+poll_id = os.environ.get('poll_id')
+answer_id = os.environ.get('answer_id')
+number_of_votes = os.environ.get('number_of_votes')
+wait_min = os.environ.get('wait_min')
+wait_max = os.environ.get('wait_max')
 
 get_all_proxies()
 get_all_useragents()

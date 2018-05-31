@@ -1,4 +1,7 @@
-# PollDaddy Hack
+# Heroku Fork
+This is a fork of the PollDaddy hack by dado3212 with all the necessary files added so it will run on a heroku server out of the box.
+
+## PollDaddy Hack
 
 This is pretty easy to use.  Just download the Python script, and customize the variables for what form/answer/number of votes.  
 
@@ -11,10 +14,12 @@ This script will **not** work on polls that do not allow multiple votes from one
 ### Example
 You want to rig this poll: https://polldaddy.com/poll/9206448/ for the answer "It's a great way to keep kids in line during a crazy time of year.", and you want to vote 1000 times.  The poll_id comes from the url: <code>https://polldaddy.com/poll/<b>9206448</b>/</code>.  The answer_id comes from the looking at the source code for the associated checkbox: <code>\<input type="radio" name="PDI_answer" id="PDI_answer41930288" value="**41930288**"></code>.
 
-
-Thus, you would want the variables to be set to:
+This heroku fork relies on heroku config variables with the proper names.
+Thus, you would want heroku environment variables to be set to:
 ```
 poll_id = 9206448
 answer_id = 41930288
 number_of_votes = 1000
+wait_min = 10
+wait_max = 15
 ```
