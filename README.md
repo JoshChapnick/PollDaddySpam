@@ -5,8 +5,8 @@ This is a fork of the PollDaddy hack by dado3212 with all the necessary files ad
 
 This is pretty easy to use.  Just download the Python script, and customize the variables for what form/answer/number of votes.  
 
-It needs Python 2.7.6.
-Also be sure to do pip2.7 install requests
+It needs Python 2.7.
+You should really use a virtualenv with Python 2.7 if you're not using Heroku.
 
 ### Disclaimer
 This script will **not** work on polls that do not allow multiple votes from one person.  The useragents and proxy settings will help try and mask your mass voting, but they will not get you around IP blocks.  If someone wants to give a shot at forking this and adding that functionality, I will be happy to merge it in.
