@@ -23,3 +23,5 @@ number_of_votes = 1000
 wait_min = 10
 wait_max = 15
 ```
+
+Finally, you need to go to dynos and turn on the worker dyno.
