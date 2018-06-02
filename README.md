@@ -1,5 +1,5 @@
 # Google App Engine Fork
-This is a fork of the PollDaddy hack by dado3212 with all the necessary files added so it will run on a Google App Engine server out of the box.
+This is a fork of the PollDaddy hack by dado3212 with all the necessary files added so it will run on a Google App Engine server out of the box. To change the voting you must update environment variables in vote.py
 
 ## PollDaddy Hack
 
