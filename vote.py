@@ -93,11 +93,11 @@ def vote(form, value, times, wait_min = None, wait_max = None):
         i += 1
 
 # Initialize these to the specific form and how often you want to vote
-poll_id = int(os.environ.get('poll_id'))
-answer_id = int(os.environ.get('answer_id'))
-number_of_votes = int(os.environ.get('number_of_votes'))
-wait_min = int(os.environ.get('wait_min'))
-wait_max = int(os.environ.get('wait_max'))
+poll_id = 10017773
+answer_id = 45935926
+number_of_votes = 100000
+wait_min = 0
+wait_max = 0
 
 get_all_proxies()
 get_all_useragents()
