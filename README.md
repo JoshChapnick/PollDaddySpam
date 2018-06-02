@@ -1,5 +1,5 @@
-# Heroku Fork
-This is a fork of the PollDaddy hack by dado3212 with all the necessary files added so it will run on a heroku server out of the box.
+# Google App Engine Fork
+This is a fork of the PollDaddy hack by dado3212 with all the necessary files added so it will run on a Google App Engine server out of the box.
 
 ## PollDaddy Hack
 
